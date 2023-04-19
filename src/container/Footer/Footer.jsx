@@ -49,6 +49,10 @@ const Footer = () => {
           <a href='tel:+1 (646)-596-1277' className='p-text'>+1 (646)-596-1277</a>
         </div>
       </div>
+      <div className='copyright'>
+                <p className='p-text'>@2023 Roger Salguero</p>
+                <p className='p-text'>All rights reserved</p>
+      </div>
 
     {!isFormSubmitted ?
       <div className='app__footer-form app__flex'>
